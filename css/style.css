@@ -1,1 +1,135 @@
 @import url(null.css);
+
+.wrapper {
+	overflow: hidden;
+	max-height: 100%;
+}
+.diva {
+	width: 600px;
+	height: 600px;
+	border: 10px solid rgb(255, 255, 255);
+	background: url(../img/lab.png) -10px -10px/600px no-repeat;
+	
+}
+.div1 {
+	width: 18px;
+	height: 18px;
+} 
+.div1:nth-child(1) {
+	margin-left: 425px;
+	margin-top: 286px;
+}
+.div1:hover:nth-child(1) {
+	margin-left: 425px;
+	margin-top: 286px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+.div1:nth-child(2) {
+	margin-left: 454px;
+	margin-top: -74px;
+}
+.div1:hover:nth-child(2) {
+	margin-left: 454px;
+	margin-top: -74px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+.div1:nth-child(3) {
+	margin-left: 343px;
+	margin-top: 197px;
+}
+.div1:hover:nth-child(3) {
+	margin-left: 344px;
+	margin-top: 197px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+/* молоток */
+.div1:nth-child(4) {
+	margin-left: 170px;
+	margin-top: -231px;
+}
+.div1:hover:nth-child(4) {
+	margin-left: 170px;
+	margin-top: -231px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+/* спрятаная */
+.div1:nth-child(5) {
+	margin-left: 316px;
+	margin-top: 229px;
+}
+.div1:hover:nth-child(5) {
+	margin-left: 316px;
+	margin-top: 229px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+/*  стенка */
+.div1:nth-child(6) {
+	margin-left: 230px;
+	margin-top: -30px;
+}
+.div1:hover:nth-child(6) {
+	margin-left: 230px;
+	margin-top: -30px;
+	background-color: rgb(128, 221, 99);
+	cursor: url(../img/hammer.png), auto;
+}
+/* обычные */
+.div1:nth-child(7) {
+	margin-left: 425px;
+	margin-top: -7px;
+}
+.div1:hover:nth-child(7) {
+	margin-left: 425px;
+	margin-top: -7px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+.div1:nth-child(8) {
+	margin-left: 288px;
+	margin-top: -406px;
+}
+.div1:hover:nth-child(8) {
+	margin-left: 288px;
+	margin-top: -406px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+.div1:nth-child(9) {
+	margin-left: 179px;
+	margin-top: 65px;
+}
+.div1:hover:nth-child(9) {
+	margin-left: 179px;
+	margin-top: 65px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+.div1:nth-child(10) {
+	margin-left: 206px;
+	margin-top: 150px;
+}
+.div1:hover:nth-child(10) {
+	margin-left: 206px;
+	margin-top: 150px;
+	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
+	cursor: url(../img/lopata.png), auto;
+}
+.alt{
+	margin-left: 600px;
+	margin-top: -600px;
+	height: 600px;
+	width: 100px;
+	border: 10px solid rgb(255, 255, 255);
+
+}
+/* div:target{
+	height: 100px;
+	width: 100px;
+	background-image: url(../img/apple.png);
+	
+} */
