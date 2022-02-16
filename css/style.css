@@ -169,10 +169,8 @@
 .number:hover {
 	background-color: rgb(155, 44, 44);
 	opacity: 100;
-	padding: auto 10px;
 }
 .number:active {
-	opacity: 100;
 	color: aliceblue;
 	box-shadow: inset 1px 1px 4px rgb(0, 0, 0), inset -1px -1px 4px rgb(0, 0, 0);
 }
