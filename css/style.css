@@ -3,6 +3,8 @@
 .wrapper {
 	overflow: hidden;
 	min-height: 100%;
+	margin-left: 30px;
+	font-size: 20px;
 }
 .diva {
 	width: 600px;
@@ -62,18 +64,18 @@
 	cursor: url(../img/lopata.png), auto;
 }
 .div1:nth-child(6) {
-	margin: 9px 0 0 206px;
+	margin: 6px 0 0 206px;
 }
 .div1:hover:nth-child(6) {
-	margin: 9px 0 0 206px;
+	margin: 6px 0 0 206px;
 	background-color: #9bd946;
 	cursor: url(../img/hammer.png), auto;
 }
 .div1:nth-child(7) {
-	margin: 30px 0 0 453px;
+	margin: 33px 0 0 453px;
 }
 .div1:hover:nth-child(7) {
-	margin: 30px 0 0 453px;
+	margin: 33px 0 0 453px;
 	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
 	cursor: url(../img/lopata.png), auto;
 }
@@ -98,15 +100,14 @@
 	background-color: #9bd946;
 }
 .div11 {
-	   margin: 15px 0 0 316px;
-		display: block;
-		font-size: 2px;
-		height: 9px;
-		width: 18px;
-		background-color: black;
-	
+	margin: 15px 0 0 316px;
+	display: block;
+	font-size: 2px;
+	height: 9px;
+	width: 18px;
+	background-color: #3f3b39;
 }
-.div11:hover{
+.div11:hover {
 	margin: 0 0 0 316px;
 	height: 18px;
 	background: url(../img/kucha.png) 0px 0px/18px 18px no-repeat;
@@ -136,42 +137,134 @@
 .div11:visited {
 	background-color: #a6dd5d;
 }
-.divu,.divi{
-	margin-left: 30px;
-}
-.game{
+
+.game {
 	font-size: 48px;
 	padding: 10px 0 10px 0;
 	color: #9bd946;
 	text-shadow: 4px 4px 4px black;
 }
-.game::after{
+.game::after {
 	content: url(../img/snake.png);
 	padding-left: 10px;
 }
-.info,.divi{
-	font-size: 20px;
-}
-.info::after{
+.info::after {
 	content: url(../img/smiley.png);
 }
-.divi{
-	border: 2px solid black;
+.divi {
+	border: 2px solid rgb(255, 255, 255);
 }
-.number{
-	display:inline-block;
+.number {
+	margin-left: 20px;
+	display: inline-block;
 	padding: 10px 30px;
+	color: rgb(155, 44, 44);
 	opacity: 0;
 	border: 3px solid black;
 	text-align: center;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgb(0, 0, 0), -2px -2px 4px rgb(0, 0, 0), -2px 2px 4px rgb(0, 0, 0),
+		2px -2px 4px rgb(0, 0, 0);
 }
-.number:hover{
-	content: url(../img/botton.png);
+.number:hover {
+	background-color: rgb(155, 44, 44);
 	opacity: 100;
 	padding: auto 10px;
 }
-.number:active{
+.number:active {
 	opacity: 100;
-	content: none;
-	background-color: rgb(145, 151, 62);
+	color: aliceblue;
+	box-shadow: inset 1px 1px 4px rgb(0, 0, 0), inset -1px -1px 4px rgb(0, 0, 0);
+}
+.back {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: darkgoldenrod;
+	color: rgb(46, 40, 41);
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0px 4px 4px black;
+}
+.back:hover {
+	padding: 11px 20px 9px 20px;
+	box-shadow: none;
+}
+.back:active {
+	padding: 12px 20px 8px 20px;
+	box-shadow: inset 0px 4px 4px black;
+}
+/* figma */
+.main {
+	font-family: "lato", sant-serif;
+	font-size: 16px;
+	font-style: normal;
+	text-align: left;
+	color: #424551;
+	line-height: 160%;
+	max-width: 390px;
+}
+.main-1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	margin-bottom: 8px;
+}
+
+.main-2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 40px;
+}
+.text {
+	margin-bottom: 48px;
+}
+.text-item {
+	margin-bottom: 12px;
+	padding-left: 32px;
+}
+.text-item::before {
+	content: url(../img/point_2.png);
+	height: 16px;
+	width: 16px;
+	margin: 0 16px 0 -32px;
+}
+.text > *:last-child {
+	margin-bottom: 0;
+}
+.button {
+	display: inline-block;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 44px;
+	color: #ffffff;
+	align-items: center;
+	padding: 0px 32px;
+	margin-left: 2px;
+}
+
+.button:active {
+	color: #f75e05;
+	background: #ffffff;
+	outline: 2px solid #f75e05;
+}
+/* figma2 */
+.word {
+	margin-bottom: 10px;
+	font-family: Taviraj;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 111%;
+	color: #333333;
+}
+.word::after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 127px;
+	background-color: #333333;
 }
